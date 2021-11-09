@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@100;200;300;400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- CSS and Favicon -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./rocketsmall.png" type="image/gif">
+    <title>SpaceX</title>
+</head>
+
+<body>
+    <!-- Shows loading page til page gets loaded -->
+    <div id="load_screen">
+        <div id="loading">loading <i class="fas fa-spinner"></i></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="" class="logo"><img src="./logo.png" width="200px" height="auto"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="./launches.html">Launches</a></li>
+            <li><a href="./rockets.html">Rockets</a></li>
+            <li><a href="./roadster.html">Roadster</a></li>
+        </ul>
+    </header>
+
+    <section class="container">
+        <div class="row row1">
+            <img>
+            <div class="info">
+                <div class="summary"></div>
+                <div class="headquarters"></div>
+            </div>
+        </div>
+
+        <div class="row row2">
+            <img>
+            <div class="launches"></div>
+        </div>
+
+        <div class="row row3">
+            <img>
+            <div class="rockets"></div>
+        </div>
+
+        <div class="row row4">
+            <img>
+            <div class="roadster"></div>
+        </div>
+
+    </section>
+
+    <!-- Script File -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
